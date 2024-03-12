@@ -111,7 +111,6 @@ function ConvertFromPostToData(post) {
     string += '<td>' + post.postid + '</td>';
     string += '<td>' + post.name + '</td>';
     string += '<td>' + post.email+ '</td>';
-    string += '<td>' + post.body + '</td>';
     string += '<td><button onclick="Delete(' + post.id + ')">Delete</button></td>';
     string += '</tr>';
     return string;
